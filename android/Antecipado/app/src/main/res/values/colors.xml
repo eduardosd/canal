@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_black">#282828</color>
+    <color name="input_background">#353535</color>
+    <color name="categoria_tot">#b2e5fc</color>
+    <color name="login_background">#242c30</color>
+
+    <color name="detail">#37474f</color>
+    <color name="filter">#ff5a69</color>
+    <color name="ligar">#ff3f56</color>
+    <color name="arrow">#db3471</color>
+    <color name="button">#03a9f4</color>
+    <color name="row_blue">#03a9f4</color>
+    <color name="row_light_blue">#3b5871</color>
+</resources>

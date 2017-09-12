@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red242\green242\blue242;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11700\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 telas:
+\b0 \
+\
+mobile:\
+- login\
+- saldo e leitor de cr\'e9ditos\
+- card\'e1pio com itens b\'e1sicos\
+- checkout\
+- compras feitas\
+- gerador de qr code\
+\
+toten:\
+- leitor de c\'f3digos de pedidos (qr code)\
+\
+sistema interno:\
+- gerador de pedidos\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/registerClient/Reinaldo%20Diederichsen/radware@gmail.com/123456/Masculino"}}{\fldrslt \cf0 http://127.0.0.1:8000/registerClient/Reinaldo%20Diederichsen/radware@gmail.com/123456/Masculino}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/requestItens/0002/2/eduardo.diederichsen@gmail.com"}}{\fldrslt \cf0 http://127.0.0.1:8000/requestItens/0002/2/eduardo.diederichsen@gmail.com}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/getClient/eduardo.diederichsen@gmail.com/123456"}}{\fldrslt \cf0 http://127.0.0.1:8000/getClient/eduardo.diederichsen@gmail.com/MTIzNDU2\
+}}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/getClient/eduardo.diederichsen@gmail.com/123456"}}{\fldrslt \cf0 http://127.0.0.1:8000/getCartao/eduardo.diederichsen@gmail.com/MTIzNDU2}}/1{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/getClient/eduardo.diederichsen@gmail.com/123456"}}{\fldrslt \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 http://127.0.0.1:8000/putMoney/eduardo.diederichsen@gmail.com/MDAwMTAw}}\
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/acceptItensRequest/3/eduardo.diederichsen@gmail.com/123456"}}{\fldrslt http://127.0.0.1:8000/acceptItensRequest/3/eduardo.diederichsen@gmail.com/123456}}\
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/getAcceptedRequests/"}}{\fldrslt http://127.0.0.1:8000/getAcceptedRequests/}}\
+{\field{\*\fldinst{HYPERLINK "http://127.0.0.1:8000/getAvailableItens/"}}{\fldrslt http://127.0.0.1:8000/getAvailableItens/}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb0 \CocoaLigature0 source portal-admin/bin/activate
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb0 \CocoaLigature0 python manage.py runserver 0.0.0.0:8000
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb0 \CocoaLigature0 python manage.py makemigrations\
+\
+python manage.py loaddata fixtures/data.json }

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:fitsSystemWindows="false"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <include layout="@layout/logo_text_format_big" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/login_text"
+        android:background="@color/input_background"
+        android:gravity="center"
+        android:hint="@string/login_email"
+        android:inputType="text"
+        android:windowSoftInputMode="adjustResize|adjustPan"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/login_email"
+        android:background="@color/input_background"
+        android:gravity="center"
+        android:hint="@string/login_password"
+        android:inputType="text"
+        android:windowSoftInputMode="adjustResize|adjustPan"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/login_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:background="#03a9f4"
+        android:text="@string/button_entrar" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/login_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
+        android:background="#03a9f4"
+        android:text="@string/register" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="GoogleNavigationDrawerTheme.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/actionbar_background</item>
+        <item name="colorPrimaryDark">@color/actionbar_background</item>
+        <item name="colorAccent">@color/actionbar_background</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+    </style>
+    <color name="actionbar_background">#37474f</color>
+
+    <style name="TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
